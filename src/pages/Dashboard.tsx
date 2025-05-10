@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-// src/pages/Dashboard.tsx
-import React, { useEffect, useState } from "react";
+
+import { useEffect, useState } from "react";
 import axios from "axios";
 import { useAuth } from "../auth/AuthContext";
 import Navbar from "../components/Navbar";
