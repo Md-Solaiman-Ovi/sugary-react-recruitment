@@ -55,7 +55,7 @@ const Dashboard = () => {
       onScroll={handleScroll}
     >
       <Navbar userInfo={user} logout={logout} />
-      <div className="text-white font-bold text-3xl container mx-auto py-5">
+      <div className="text-white font-bold text-3xl container mx-auto py-5  px-4">
         Materials
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4  container mx-auto ">
